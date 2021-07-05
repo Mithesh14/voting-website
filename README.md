@@ -9,10 +9,10 @@
 
 ➡️ Candidates with 272 votes will be declared as winner ❗
 
-![screenshots](https://github.com/Mithesh14/Github-profile/blob/main/image/image1.jpg)
+![screenshots](https://github.com/Mithesh14/voting-website/blob/main/images/image1.jpg)
 
-![screenshots](https://github.com/Mithesh14/Github-profile/blob/main/image/image2.jpg)
+![screenshots](https://github.com/Mithesh14/voting-website/blob/main/images/image2.jpg)
 
-![screenshots](https://github.com/Mithesh14/Github-profile/blob/main/image/image3.jpg)
+![screenshots](https://github.com/Mithesh14/voting-website/blob/main/images/image3.jpg)
 
-![screenshots](https://github.com/Mithesh14/Github-profile/blob/main/image/image4.jpg)
+![screenshots](https://github.com/Mithesh14/voting-website/blob/main/images/image4.jpg)
