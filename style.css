@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html,
+#app {
+  height: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+#app {
+  background: #0e223b;
+  overflow-y: scroll;
+}
+
+.app-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: url(images/faceoff.jpeg) no-repeat center center fixed;
+  background-size: cover;
+  z-index: -1;
+}
+
+header {
+  background: transparent;
+  padding: 1rem 1rem;
+}
+
+.instructions  {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Electrolize', sans-serif;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+.instructions h1 {
+  font-size: 3rem;
+}
+
+.mithesh  {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Electrolize', sans-serif;
+  margin-left: 45%;
+  margin-top: 2%;
+  margin-bottom: -4%;
+}
+
+main {
+  height: 100%;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0rem 0;
+}
+
+.card {
+  width: 25rem;
+  border: 2px solid #1b1d29;
+  overflow: hidden;
+  box-shadow: 15px 15px 6px #0e1e37;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.card:first-of-type {
+  margin-bottom: 5rem;
+}
+
+.card-image {
+  width: 25rem;
+  height: 20rem;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-evenly;
+  background: white;
+  color: #1b1d29;
+  padding: 2rem 0;
+}
+
+.candidate-votes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60px;
+}
+
+.votes-number-modi,
+.votes-number-rahul {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.votes-text {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.line {
+  width: 0.1rem;
+  background: #1b1d29;
+}
+
+.candidate-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.candidate-name {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.candidate-party {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.card-btn {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 1.5rem 0;
+  color: white;
+  cursor: pointer;
+  border-top: 2px solid #1b1d29;
+}
+
+.btn-modi,
+.btn-rahul {
+  transition: all 0.5s ease;
+}
+
+.btn-modi {
+  background: #fe4c13;
+}
+
+.btn-rahul {
+  background: #0e692c;
+}
+
+@media screen and (min-width: 768px) {
+  .mithesh {
+    justify-content: flex-start;
+  }
+  .cards {
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    padding: 0;
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .card {
+    width: 30rem;
+  }
+
+  .card:first-of-type {
+    margin-bottom: 0;
+  }
+
+  .card-image {
+    width: 30rem;
+    height: 26rem;
+  }
+
+  .votes-number-modi,
+  .votes-number-rahul {
+    font-size: 3.5rem;
+  }
+
+  .votes-text {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+
+  .candidate-name {
+    font-size: 2rem;
+  }
+
+  .candidate-party {
+    font-size: 1.1rem;
+  }
+
+  .card-btn {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cards {
+    width: 70%;
+  }
+
+  .card:hover {
+    transform: translateY(-2rem);
+  }
+
+  .card:hover .btn-modi,
+  .card:hover .btn-rahul {
+    font-size: 2.5rem;
+  }
+
+  .btn-modi:hover {
+    background: #ee3a01;;
+  }
+
+  .btn-rahul:hover {
+    background:#376d48;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .cards {
+    width: 60%;
+  }
+}
