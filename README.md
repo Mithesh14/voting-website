@@ -3,7 +3,7 @@
 
 # Project link
 
-<a href="https://mithesh14.github.io/Github-profile/">Voting website</a>
+<a href="https://mithesh14.github.io/voting-website/">Voting website</a>
 
 # Screenshots 
 
